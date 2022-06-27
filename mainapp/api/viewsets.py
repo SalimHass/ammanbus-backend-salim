@@ -9,11 +9,6 @@ from .serializers import StationSerializer,RouteSerializer,StationStopSerializer
 
 # Create your views here.
 
-
-
-
-
-
 @api_view(['GET'])
 @permission_classes([AllowAny])
 def getStations(request):
